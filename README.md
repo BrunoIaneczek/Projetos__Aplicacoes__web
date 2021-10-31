@@ -1,2 +1,4 @@
-# Projetos_Aplicacoes_web
+# Projetos
+
+Projetos desenvolvidos em HTML,CSS e JS.
  
