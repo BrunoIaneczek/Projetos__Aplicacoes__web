@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificando Atletas</title>
+    <link rel="stylesheet" href="Classificando_atletas.css">
+</head>
+    <header>
+        <h1>Classificador de atletas</h1>
+    </header>
+<body>
+    <div>
+        <section>
+            <p>
+                Nome do atleta <input type="text" name = 'nome' id = 'nome'>
+            </p>
+            <p>
+                Ano de nascimento <input type="number" name = 'anonasc' id = 'anonasc'>
+            </p> 
+            <p>
+                <input type="button" value= "Classificar" onclick="classificar()">
+            </p>  
+            <div id = 'res'></div> 
+        </section>
+    
+    </div>
+    <script src="Classificando_atletas.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+body{
+    background-color: darkslategray;
+    font: 15pt Arial;
+
+    
+}
+header{
+    text-align: center;
+}
+section{
+    width: 500px;
+    background-color: darkturquoise;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
