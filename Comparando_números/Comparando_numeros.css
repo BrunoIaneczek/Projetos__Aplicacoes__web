@@ -1,0 +1,17 @@
+body{
+    background-color: forestgreen;
+    font: 15pt Arial;
+
+}
+header{
+    text-align: center;
+    color: gold;
+}
+section{
+    margin: auto;
+    background-color: greenyellow;
+    border-radius: 5px;
+    padding: 5px;
+    width: 500px;
+
+}

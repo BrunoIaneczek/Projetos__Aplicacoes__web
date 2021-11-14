@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionador de pagamentos</title>
+    <link rel="stylesheet" href="Condicionador_de_pagamentos.css">
+</head>
+    <header>
+        <h1>Descubra seu desconto</h1>
+    </header>
+<body>
+    <section>
+        <div>
+            <p>Valor do produto: <input type="number" name="valor" id='valor'></p>
+            <p> Meio de pagamento:
+            <p><input type="radio" name="desconto" id="adc" checked>
+                <label for="adc">Avista dinheiro/cheque (10% desconto)</label></p>    
+            <p><input type="radio" name="desconto" id="ac">
+                <label for="ac">Avista cartão (5% desconto)</label></p>    
+            <p><input type="radio" name="desconto" id="2vc">
+                <label for="2vc">2 vezes no cartão (preço original)</label> </p>
+            <p><input type="radio" name="desconto" id="mvc">
+                <label for="mvc">2 vezes ou mais no cartão (20% de juros)</label></p>
+            </p>
+            <p>
+                <input type="button" value="Definir desconto" onclick="desconto()">
+            </p>
+        </div>
+        <div id='res'></div>
+    </section>
+<script src="Condicionador_de_pagamentos.js"></script>
+</body>
+</html>
