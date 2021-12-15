@@ -1,0 +1,14 @@
+body{
+    background-color: brown;
+    font: 15pt Arial;
+}
+section{
+    background-color: burlywood;
+    border-radius: 5px;
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+}header{
+    text-align: center;
+}
+
