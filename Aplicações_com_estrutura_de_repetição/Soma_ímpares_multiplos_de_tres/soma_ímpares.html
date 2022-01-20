@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma de ímpares multiplos de três</title>
+    <link rel="stylesheet" href="soma_ímpares.css">
+</head>
+<body>
+    <header>
+        <h1>Soma dos ímpares</h1>
+    </header>   
+    <section>
+        <div>
+            <p>Digite o número inicial do intervalo: <input type="number" name="ninicial" id="ninicial"></p>
+            <p>Digite o número final do intervalo: <input type="number" name="nfinal" id="nfinal"></p>
+            <p><input type="button" value="Verificar" onclick="verificar()"></p>
+        </div>
+        <div id = 'res'>
+            
+        </div>
+        <div>
+            <select name="intervalo" id="selint" size = '20'>
+                <option>Abaixo o intervalo: </option>
+            </select>
+                
+        </div>
+    </section>
+    <footer>
+        <p>&copy;BrunoIaneczek</p>
+    </footer>
+    <script src="soma_ímpares.js"></script>
+</body>
+</html>
